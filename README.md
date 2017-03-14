@@ -1,5 +1,7 @@
 # ErrorDumperBundle
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/614541fc-fbdf-45f9-872c-7cb0da038322/mini.png)](https://insight.sensiolabs.com/projects/614541fc-fbdf-45f9-872c-7cb0da038322)
+
 Integrates [awesomite/error-dumper](https://github.com/awesomite/error-dumper) into your Symfony application
 
 ## Why?
