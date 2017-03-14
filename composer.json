@@ -1,0 +1,20 @@
+{
+    "name": "awesomite/error-dumper-bundle",
+    "description": "Integrates awesomite/error-dumper into your Symfony application",
+    "require": {
+        "symfony/framework-bundle": "^2.8 || ^3.0",
+        "awesomite/error-dumper": "^0.12"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartłomiej Krukowski",
+            "email": "bartlomiej@krukowski.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Awesomite\\ErrorDumperBundle\\": ""
+        }
+    }
+}

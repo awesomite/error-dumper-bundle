@@ -1,0 +1,6 @@
+services:
+    kernel.listener.awesomite_error_dumper:
+        class: Awesomite\ErrorDumperBundle\EventListener\ExceptionListener
+        arguments: ["@=container.hasParameter('debug.file_link_format') ? parameter('debug.file_link_format') : null"]
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception }
