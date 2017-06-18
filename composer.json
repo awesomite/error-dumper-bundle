@@ -3,7 +3,7 @@
     "description": "Integrates awesomite/error-dumper into your Symfony application",
     "require": {
         "symfony/framework-bundle": "^2.8 || ^3.0",
-        "awesomite/error-dumper": "^0.12"
+        "awesomite/error-dumper": "^0.13"
     },
     "license": "MIT",
     "authors": [
